@@ -38,6 +38,10 @@ _If you encounter any problems with this software, or would like to contribute, 
 * ActiveRecord
 * postgres
 
+## Further Improvements
+
+* add integration tests using capybara gem
+
 
 ## License 
 
