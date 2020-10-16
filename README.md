@@ -6,7 +6,7 @@
 
 ## Description 
 
-_This application lets a user enter a project to the database. The user may then click on a project to either rename it, delete it or add volunteers to that project. Each volunteer can also be accessed and either renamed or deleted as well. This project is an exercise in using PostgreSQL databases and Sinatra routing._
+_This application is for a ficticious online beer retailer. An admin can add beers to the database and update or delete them (CRUD functionality). The admin may also add, update or delete reviews for each beer. Each beer can have many reviews assigned to it. For the purpose of this exercise, the databse has been seeded with 125 beers using a faker gem. 2 reviews per beer have also been seeded to the databse. This project is an exercise in using Active Record and Rails._
 
 
 ## Setup/Installation Requirements
@@ -15,12 +15,11 @@ _This application lets a user enter a project to the database. The user may then
 * _navigate to the root dir of this project_
 * _in terminal do command gem install bundler_
 * _in the terminal do commmand install bundle_
-* _download and install Postgres_
-* _open Postgres by running the comand postgres in terminal_
-* _in a new bash window, run psql to interact with Postgres_
+* _Run rake db:setup in terminal_
+* _Open the cloned repo in text editor_
 * _to run the rspec tests, navigate to the root directory and run rspec_
-* _in terminal do command ruby app.rb which will run the application_
-* _Navigate to localhost:4567 in the broswer of your choice to view the project_
+* _in terminal do command rails s to start the rails server._
+* _Navigate to localhost:3000 in the broswer of your choice to view the project_
 
 ## Known Bugs
 
@@ -35,10 +34,10 @@ _If you encounter any problems with this software, or would like to contribute, 
 * Ruby
 * rspec
 * gem bundler
-* sinatra 
-* PostgreSQL
-* PSQL
-* Capybara
+* Rails
+* ActiveRecord
+* postgres
+
 
 ## License 
 
