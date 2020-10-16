@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 2020_10_16_153124) do
     t.string "author"
     t.string "content_body"
     t.integer "rating"
+    t.integer "product_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
