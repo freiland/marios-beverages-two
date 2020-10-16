@@ -2,7 +2,7 @@ class ProductsController < ApplicationController
 
   def index
     @products = Product.all
-    render 'test'
+    render :index
   end
 
   def new
