@@ -7,6 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Product.destroy_all
+Review.destroy_all
 
 125.times do |index|
   Product.create!(name: Faker::Beer.name,
@@ -14,4 +15,14 @@ Product.destroy_all
                         
 end
 
+Product.each do |product|
+  250.times do |index|
+    Review.product.create!(author: Faker::FunnyName.two_word_name,content_body: Faker::String.random(length: 51..251),rating: rand(1..5))
+  end
+end
+
+
+
+
 p "Created #{Product.count} beers"
+p "Created #{Review.count} reviews"
