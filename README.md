@@ -1,4 +1,4 @@
-# _Volunteer Tracker_
+# _Marios Beverage Store_
 
 #### _Webpage with one-to many relationship using Rails and ActiveRecord, October 16, 2020_
 
@@ -37,10 +37,6 @@ _If you encounter any problems with this software, or would like to contribute, 
 * Rails
 * ActiveRecord
 * postgres
-
-## Further Improvements
-
-* add integration tests using capybara gem
 
 
 ## License 
