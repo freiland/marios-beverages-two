@@ -1,6 +1,6 @@
 <h1><%= @product.name %></h1>
 <h3>Price for case of six: $<%= @product.cost %></h3>
-<h3><%= @product.country_of_origin %> </h3>
+<h4>Country of Origin: <%= @product.country_of_origin %> </h4>
 
 
 <% if @product.reviews.any? %>

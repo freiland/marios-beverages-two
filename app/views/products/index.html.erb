@@ -1,7 +1,7 @@
-<h1>Marios Imports</h1>
-<h4>Welcome to Marios Imports. We pride ourselves on customer service and an amazing selection of rare beers from around the globe! Look around our site, and if you do purchase a beverage, make sure to leave a review. Enjoy! </h4>
+<h1>Inventory</h1>
+<%= link_to 'return to landing page', root_path%><br>
 
-
+<p><%= link_to "add product", new_product_path %></p>
 <h3>Most recently added beers:</h3>
   <ul>
     <% @most_recent.each do |product| %>
@@ -24,4 +24,3 @@
 <% end %>
 
 
-<p><%= link_to "add product", new_product_path %></p>

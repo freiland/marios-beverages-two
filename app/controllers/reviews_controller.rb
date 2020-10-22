@@ -5,6 +5,10 @@ class ReviewsController < ApplicationController
     render :new
   end
 
+  def landing 
+    @products = Product.all
+  end
+
   def show
     @product = Product.find(params[:product_id])
     @review = Review.find(params[:id])
