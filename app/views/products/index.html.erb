@@ -5,7 +5,7 @@
 <h3>Most recently added beers:</h3>
   <ul>
     <% @most_recent.each do |product| %>
-      <li><%= link_to product.name, product_path(product) %></li>
+      <li><%=product.name%></li>
     <% end %>
   </ul>
 
