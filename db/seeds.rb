@@ -9,9 +9,9 @@
 Product.destroy_all
 Review.destroy_all
 
-125.times do |index|
+50.times do |index|
   product = Product.create!(name: Faker::Beer.name,cost: rand(1..25), country_of_origin: Faker::WorldCup.team)
-  2.times do |index|
+  5.times do |index|
 
                         
     product.reviews.create!(author: Faker::FunnyName.two_word_name,content_body: Faker::Lorem.characters(number: 61),rating: rand(1..5))
